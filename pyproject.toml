@@ -8,6 +8,8 @@ packages = [{include = "dsamores"}]
 
 [tool.poetry.dependencies]
 python = "^3.12"
+pelican = {extras = ["markdown"], version = "^4.9.1"}
+ghp-import = "^2.1.0"
 
 
 [build-system]
