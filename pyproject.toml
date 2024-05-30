@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dsamores-github-io"
+version = "0.1.0"
+description = ""
+authors = ["David Amores <davidamores@gmail.com>"]
+readme = "README.md"
+packages = [{include = "dsamores"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
