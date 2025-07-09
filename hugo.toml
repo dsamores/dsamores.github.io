@@ -2,3 +2,9 @@ baseURL = 'https://dsamores.github.io/'
 languageCode = 'en-us'
 title = 'David Amores Blog'
 theme = 'PaperMod'
+
+[mediaTypes."text/html"]
+  suffixes = ["html"]
+
+[outputs]
+  home = ["HTML", "RSS"]
